@@ -1,0 +1,135 @@
+*{margin: 0%;padding: 0%;}
+/*Cabezera pagina*/
+.header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right,#BFBEBD,#403F3F);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#header_titulo{
+    font-family: "Arimo", sans-serif;
+    color: black;
+    padding-left: 30px;
+}
+header a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+    color: white;
+    padding-left: 30px;
+    display: block;
+}
+.nav ul a{
+    color: black;
+}
+.nav li a:hover{
+    background-color: #403F3F;
+}
+.nav > li{
+    float: left;
+}
+.nav ul{
+    display: none;
+    position: absolute;
+}
+.nav li:hover > ul{
+    display: block;
+}
+/* Fin Cabezera pagina*/
+/*Inicio cuerpo*/
+.cuerpo{
+    height: 800px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+#contenedor_cuerpo1{
+    height: 500px;
+    width: 600px;
+}
+#contenedor_cuerpo1:hover{
+   cursor: pointer;
+   text-decoration: underline;
+}
+#contenedor_cuerpo1 img{
+    width: 100%;
+    height: 50%;
+}
+#contenedor_cuerpo1-sec2{
+    padding-left: 10px;
+}
+#contenedor_cuerpo2{
+    height: 400px;
+    width: 600px;
+}
+#contenedor_cuerpo2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#contenedor_cuerpo2-sec1{
+    display: flex;
+    justify-content: center;
+}
+#contenedor_cuerpo2-sec2{
+    padding-left: 10px;
+}
+#contenedor_cuerpo2-sec1 img{
+    width: 200px;
+    height: 250px;
+}
+#contenedor_cuerpo3{
+    width: 400px;
+    overflow: hidden;
+}
+#contenedor_cuerpo3-sec1{
+    width: 100%;
+    height: 50%;
+}
+#contenedor_cuerpo3-sec1Up{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+#contenedor_cuerpo3-sec1 img{
+    width: 200px;
+    height: 150px;
+}
+#contenedor_cuerpo3 h1{
+    font-size: 19px;
+}
+#contenedor_cuerpo3 p{
+    font-size: 12px;
+    overflow: hidden;
+}
+#contenedor_cuerpo3-sec1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#contenedor_cuerpo3-sec2{
+    margin-top: 40px;
+    height: 100px;
+    width: 100%;
+    height: 50%;
+}
+#contenedor_cuerpo3-sec2Up{
+    display: flex;
+    justify-content: center;
+}
+#contenedor_cuerpo3-sec2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*Fin cuerpo*/

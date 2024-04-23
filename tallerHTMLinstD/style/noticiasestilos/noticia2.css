@@ -1,0 +1,62 @@
+*{margin: 0%;padding: 0%;}
+/*Cabezera pagina*/
+.header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right,#BFBEBD,#403F3F);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#header_titulo{
+    font-family: "Arimo", sans-serif;
+    color: black;
+    padding-left: 30px;
+}
+header a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+    color: white;
+    padding-left: 30px;
+    display: block;
+}
+.nav ul a{
+    color: black;
+}
+.nav li a:hover{
+    background-color: #403F3F;
+}
+.nav > li{
+    float: left;
+}
+.nav ul{
+    display: none;
+    position: absolute;
+}
+.nav li:hover > ul{
+    display: block;
+}
+/* Fin Cabezera pagina*/
+/*Inicio cuerpo*/
+.cuerpo{
+    width: 100%;
+    height: 800px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.cuerpo img{
+    height: 400px;
+}
+#cuerpo_seccion2{
+    padding-left: 10px;
+    overflow: hidden;
+}
+/*Fin cuerpo*/

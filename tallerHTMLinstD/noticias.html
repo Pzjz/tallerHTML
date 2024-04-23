@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styleNoticias.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Cefit News</title>
+</head>
+<body>
+    <!--Cabezara Pagina-->
+    <header class="header">
+        <h1 id="header_titulo">Cefit News</h1>
+        <ul class="nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="noticias.html">Noticias</a>
+                <ul>
+                    <li><a href="noticiashoy.html">Hoy</a></li>
+                    <li><a href="populares.html">Populares</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                </ul>
+            </li>
+            <li><a href="conocenos.html">Conocenos</a></li>
+        </ul>
+    </header>
+    <!-- Fin Cabezara Pagina-->
+    <!-- Inicio Cuerpo de pagina-->
+    <section class="cuerpo">
+        <div id="contenedor_cuerpo1" onclick="irALink()">
+            <div id="contenedor_cuerpo1-sec1">
+                <img src="sources/gente.jpg">
+            </div>
+            <div id="contenedor_cuerpo1-sec2">
+                <h1>¿Cefit mas incluyente?</h1>
+                <p>El cefit refuerza sus politicas de inclusion mejorando en gran medida el ambiente institucional</p>
+            </div>
+        </div>
+        <div id="contenedor_cuerpo2" onclick="irALink2()">
+            <div id="contenedor_cuerpo2-sec1">
+                <img src="sources/hoja y lapiz.webp">
+            </div>
+            <div id="contenedor_cuerpo2-sec2">
+                <h1>Nuevos Talleres Extracurriculares en Marcha</h1>
+                <p>¡Estamos emocionados de anunciar que hemos lanzado una serie de nuevos talleres<br>para nuestros estudiantes! Desde clubes de debate hasta talleres de arte y música,<br> 
+                hay algo para todos los intereses. ¡No pierdas la oportunidad de inscribirte y explorar tus pasiones fuera del aula!</p>
+            </div>
+        </div>
+        <div id="contenedor_cuerpo3">
+            <div id="contenedor_cuerpo3-sec1" onclick="irALink3()">
+                <div id="contenedor_cuerpo3-sec1Up">
+                    <img src="sources/numeros.png">
+                </div>
+                <div>
+                    <h1>Resultados Sobresalientes en la Competencia de Matemáticas</h1> 
+                    <p>¡Felicitaciones a nuestros brillantes estudiantes que participaron en la competencia de matemáticas regional el fin de semana pasado!<br>
+                    Estamos orgullosos de anunciar que nuestros estudiantes no solo demostraron un excelente desempeño, sino que también se llevaron a casa varios premios<br>
+                    en diversas categorías. ¡Su dedicación y arduo trabajo son verdaderamente inspiradores!</p>
+                </div>
+            </div>
+            <div id="contenedor_cuerpo3-sec2" onclick="irALink4()">
+                <div id="contenedor_cuerpo3-sec2Up">
+                    <img src="sources/libroFeria.jpg">
+                </div>
+                <div>
+                    <h1>Próximos Eventos: Día del Libro y Celebración Cultural</h1>
+                    <p>¡Prepárate para sumergirte en la magia de la literatura y la diversidad cultural! Estamos emocionados de celebrar el Día del Libro con una serie de actividades
+                    enriquecedoras, incluyendo lecturas de cuentos, concursos literarios y presentaciones de autores locales. Además, 
+                    no te pierdas nuestra celebración cultural, donde celebraremos la riqueza de nuestras tradiciones a través de música, danza y gastronomía. 
+                    ¡Están todos invitados a unirse a nosotros en estos eventos especiales!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Cuerpo de pagina-->
+    <script src="script.js"></script>
+</body>
+</html>

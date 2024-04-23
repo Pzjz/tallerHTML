@@ -1,0 +1,76 @@
+*{margin: 0%;padding: 0%;}
+/*Cabezera pagina*/
+.header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right,#BFBEBD,#403F3F);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#header_titulo{
+    font-family: "Arimo", sans-serif;
+    color: black;
+    padding-left: 30px;
+}
+header a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+    color: white;
+    padding-left: 30px;
+    display: block;
+}
+.nav ul a{
+    color: black;
+}
+.nav li a:hover{
+    background-color: #403F3F;
+}
+.nav > li{
+    float: left;
+}
+.nav ul{
+    display: none;
+    position: absolute;
+}
+.nav li:hover > ul{
+    display: block;
+}
+/* Fin Cabezera pagina*/
+/* Inicio cuerpo*/
+.cuerpo{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.tablon{
+    padding-top: 20px;
+    width: 1700px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#tablon_noticia1{
+    width: 1500px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+#tablon_noticia1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#tablon_noticia1 img{
+    width: 150px;
+    height: 150px;
+}
+/* Fin cuerpo*/
